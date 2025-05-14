@@ -40,8 +40,10 @@ public class SessionManager {
     }
 
     public Session get(Player player) {
+        if (player == null) return null;
         return sessions.computeIfAbsent(player, p -> new Session(this, p));
     }
+
 
     public void check(double time) {
         sessions.values().forEach(session -> session.check(time));
