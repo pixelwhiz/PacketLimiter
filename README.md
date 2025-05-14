@@ -1,5 +1,6 @@
 # PacketLimiter
-<img src="icon.png" width="250" />
+
+![icon](icon.png)
 
 **PacketLimiter** is a plugin for [PowerNukkitX](https://github.com/PowerNukkitX/PowerNukkitX) that limits the number of packets a player can send per second. Players exceeding the packet limit will receive warnings, and after reaching the maximum number of warnings, they will be kicked from the server.
 
