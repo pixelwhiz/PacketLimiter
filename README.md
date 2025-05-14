@@ -13,7 +13,13 @@
 The plugin uses the following settings (add manually or hardcode):
 
 ```yaml
+# Maximum number of warnings before a player is kicked
 maxWarnings: 3
+
+# Limit on the number of packets that can be received per second per player
 packetLimit: 100
+
+# Message displayed when a player is kicked due to packet spam
 kickMessage: "You have been kicked for sending too many packets!"
+
 ```
