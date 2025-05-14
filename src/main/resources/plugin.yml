@@ -1,0 +1,5 @@
+name: PacketLimiter
+main: dev.pixelwhiz.PacketLimiter
+version: 1.0.0
+api: ["2.0.0"]
+author: pixelwhiz
